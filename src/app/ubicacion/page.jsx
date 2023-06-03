@@ -1,5 +1,7 @@
 export default function Ubicacion () {
     return (
-        <div>Ubicacion</div>
+      <div className="container pt-20">
+        <h1>Galeria</h1>
+      </div>
     )
 }

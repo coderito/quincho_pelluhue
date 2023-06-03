@@ -1,5 +1,7 @@
 export default function Menu () {
     return (
-        <div>Menu</div>
+      <div className="container pt-20">
+        <h1>Menu</h1>
+      </div>
     )
 }
