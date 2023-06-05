@@ -24,7 +24,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   const estilosNavegacion =
-    "block cursor-pointer py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent text-blue-700 md:p-0";
+    "block hover:underline cursor-pointer py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent hover:text-blue-300 md:p-0";
 
   return (
     <>
@@ -74,8 +74,8 @@ export default function Navbar() {
                 <a
                   className={
                     pathname === "/"
-                      ? estilosNavegacion
-                      : "hover:text-blue-500 text-white cursor-pointer"
+                      ? "text-blue-500 cursor-pointer"
+                      : estilosNavegacion
                   }
                   aria-current="page"
                   onClick={() => router.push("/")}
@@ -87,8 +87,8 @@ export default function Navbar() {
                 <a
                   className={
                     pathname === "/menu"
-                      ? estilosNavegacion
-                      : "hover:text-blue-500 text-white cursor-pointer"
+                    ? "text-blue-500 cursor-pointer"
+                    : estilosNavegacion
                   }
                   onClick={() => router.push("/menu")}
                 >
@@ -99,8 +99,8 @@ export default function Navbar() {
                 <a
                   className={
                     pathname === "/galeria"
-                      ? estilosNavegacion
-                      : "hover:text-blue-500 text-white cursor-pointer"
+                    ? "text-blue-500 cursor-pointer"
+                    : estilosNavegacion
                   }
                   onClick={() => router.push("/galeria")}
                 >
@@ -111,8 +111,8 @@ export default function Navbar() {
                 <a
                   className={
                     pathname === "/casas"
-                      ? estilosNavegacion
-                      : "hover:text-blue-500 text-white cursor-pointer"
+                    ? "text-blue-500 cursor-pointer"
+                    : estilosNavegacion
                   }
                   onClick={() => router.push("/casas")}
                 >
@@ -122,8 +122,8 @@ export default function Navbar() {
                 <a
                   className={
                     pathname === "/contacto"
-                      ? estilosNavegacion
-                      : "hover:text-blue-500 text-white cursor-pointer"
+                     ? "text-blue-500 cursor-pointer"
+                      : estilosNavegacion
                   }
                   onClick={() => router.push("/contacto")}
                 >
