@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import "./globals.css";
 import { Roboto } from "next/font/google";
@@ -17,7 +18,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={roboto.className}>
         <Navbar />
-        <div className="pt-28 md:pt-0">{children}</div>
+        <div className="pt-28 lg:pt-8">{children}</div>
+        <Footer />
       </body>
     </html>
   );
