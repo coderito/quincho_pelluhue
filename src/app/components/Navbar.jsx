@@ -5,6 +5,7 @@ import { useRouter, usePathname } from "next/navigation";
 
 // fuente
 import { Lobster_Two } from "next/font/google";
+import Link from "next/link";
 
 const lobster = Lobster_Two({
     subsets: ['latin'],
@@ -71,64 +72,64 @@ export default function Navbar() {
           >
             <ul className="font-medium text-xs flex flex-col p-4 md:p-0 mt-4 md:gap-2 gap-3 tracking-widest border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
               <li>
-                <a
+                <Link
                   className={
                     pathname === "/"
                       ? "text-blue-500 cursor-pointer"
                       : estilosNavegacion
                   }
                   aria-current="page"
-                  onClick={() => router.push("/")}
+                  href="/"
                 >
                   Inicio
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className={
                     pathname === "/menu"
                     ? "text-blue-500 cursor-pointer"
                     : estilosNavegacion
                   }
-                  onClick={() => router.push("/menu")}
+                  href="/menu"
                 >
                   Menú 
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className={
                     pathname === "/galeria"
                     ? "text-blue-500 cursor-pointer"
                     : estilosNavegacion
                   }
-                  onClick={() => router.push("/galeria")}
+                  href="/galeria"
                 >
                   Galería
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className={
                     pathname === "/casas"
                     ? "text-blue-500 cursor-pointer"
                     : estilosNavegacion
                   }
-                  onClick={() => router.push("/casas")}
+                  href="/casas"
                 >
                   Cabañas
-                </a>
+                </Link>
               </li><li>
-                <a
+                <Link
                   className={
                     pathname === "/contacto"
                      ? "text-blue-500 cursor-pointer"
                       : estilosNavegacion
                   }
-                  onClick={() => router.push("/contacto")}
+                  href="/contacto"
                 >
                   Contacto
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
