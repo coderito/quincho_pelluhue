@@ -29,3 +29,18 @@
 .img-container:hover p {
   opacity: .85;  
 }
+
+.video-container {
+  position: relative;
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1; /* Asegura que el texto esté encima del video */
+}
+
+.text-overlay p {
+  margin: 0;
+}
