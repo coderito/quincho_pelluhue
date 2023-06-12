@@ -25,11 +25,11 @@ export default function Navbar() {
   const pathname = usePathname();
 
   const estilosNavegacion =
-    "block hover:underline cursor-pointer py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent hover:text-blue-300 md:p-0";
+    "block hover:underline transition duration-150 ease-in-out cursor-pointer py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent hover:text-blue-400 md:p-0";
 
   return (
     <>
-      <nav className="bg-[#06181c] border-gray-200 fixed w-full shadow-sm shadow-slate-100 z-50">
+      <nav className="bg-black border-gray-200 fixed w-full shadow-sm shadow-slate-100 z-50">
         <div className="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="https://flowbite.com/" className="flex items-center">
             <img
@@ -37,7 +37,7 @@ export default function Navbar() {
               className="h-12 w-12 mr-3 bg-white rounded-full"
               alt="Flowbite Logo"
             />
-            <span className={`${lobster.className} self-center tracking-wide text-md md:text-2xl whitespace-nowrap text-white`}>
+            <span className={`${lobster.className} self-center tracking-wider text-md md:text-2xl whitespace-nowrap text-white`}>
               El Quincho Pelluhue
             </span>
           </a>
@@ -45,7 +45,7 @@ export default function Navbar() {
             data-collapse-toggle="navbar-default"
             type="button"
             onClick={handleMenu}
-            className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex items-center p-2 ml-3 text-md text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-default"
             aria-expanded="false"
           >
@@ -70,7 +70,7 @@ export default function Navbar() {
             } w-full md:block md:w-auto text-center`}
             id="navbar-default"
           >
-            <ul className="font-medium text-xs flex flex-col p-4 md:p-0 mt-4 md:gap-2 gap-3 tracking-widest border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
+            <ul className="font-medium text-sm flex flex-col p-4 md:p-0 mt-4 md:gap-2 gap-3 tracking-widest border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
               <li>
                 <Link
                   className={
