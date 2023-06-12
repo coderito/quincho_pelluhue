@@ -50,13 +50,11 @@ export default function Hero() {
                 Queremos que tu estadía sea una hermosa experiencia de descanso
                 y un buen recuerdo que te invite siempre a volver.
               </p>
-              <div className="px-4">
-                <button className="bg-yellow-500 md:w-60 py-3 my-12 w-3/4 rounded-sm shadow-md uppercase text-sm shadow-gray-900">
-                  Ver Carta
-                </button>
-              </div>
+             
             </div>
+            
           </div>
+          
           <div className="lg:col-span-5">
             <img
               src="img/inicio/hero.jpg"
@@ -64,7 +62,14 @@ export default function Hero() {
               className="rounded-sm object-cover h-96 shadow-xl"
             />
           </div>
+          
         </div>
+        <div className='text-center'>
+                <button className="bg-yellow-500 hover:bg-yellow-400 transition duration-300 ease-in-out md:w-7/12 py-3 my-12 w-3/4 rounded-sm shadow-md uppercase text-sm shadow-gray-900">
+                  Ver Carta
+                </button>
+              </div>
+        
       </section>
     </div>
   );
