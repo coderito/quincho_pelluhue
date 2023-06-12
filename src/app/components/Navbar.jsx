@@ -4,10 +4,10 @@ import { useState } from "react";
 import { useRouter, usePathname } from "next/navigation";
 
 // fuente
-import { Lobster_Two } from "next/font/google";
+import { Tinos } from "next/font/google";
 import Link from "next/link";
 
-const lobster = Lobster_Two({
+const lobster = Tinos({
     subsets: ['latin'],
     weight: ['400'],
   });
@@ -37,7 +37,7 @@ export default function Navbar() {
               className="h-12 w-12 mr-3 bg-white rounded-full"
               alt="Flowbite Logo"
             />
-            <span className={`${lobster.className} self-center tracking-widest text-md md:text-2xl whitespace-nowrap text-white`}>
+            <span className={`${lobster.className} self-center tracking-wide text-md md:text-2xl whitespace-nowrap text-white`}>
               El Quincho Pelluhue
             </span>
           </a>
