@@ -29,7 +29,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="bg-black border-gray-200 fixed w-full shadow-sm shadow-slate-100 z-50">
+      <nav className="bg-black border-gray-200 fixed w-full z-50">
         <div className="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="https://flowbite.com/" className="flex items-center">
             <img
@@ -37,7 +37,7 @@ export default function Navbar() {
               className="h-12 w-12 mr-3 bg-white rounded-full"
               alt="Flowbite Logo"
             />
-            <span className={`${lobster.className} self-center tracking-wider text-md md:text-2xl whitespace-nowrap text-white`}>
+            <span className={`${lobster.className} self-center tracking-wide md:tracking-widest text-sm md:text-lg uppercase whitespace-nowrap text-white`}>
               El Quincho Pelluhue
             </span>
           </a>
@@ -70,7 +70,7 @@ export default function Navbar() {
             } w-full md:block md:w-auto text-center`}
             id="navbar-default"
           >
-            <ul className="font-medium text-sm flex flex-col p-4 md:p-0 mt-4 md:gap-2 gap-3 tracking-widest border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
+            <ul className="font-medium text-xs uppercase flex flex-col p-4 md:p-0 mt-4 md:gap-2 gap-3 tracking-wider border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
               <li>
                 <Link
                   className={
