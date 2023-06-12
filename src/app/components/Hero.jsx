@@ -8,7 +8,7 @@ const playfair = Playfair_Display({
 
 export default function Hero() {
   return (
-    <div className="pt-28 md:pt-36 lg:pt-10 flex items-center justify-center h-full md:h-screen bg-[#eaeaea]">
+    <div className="pt-28  lg:pt-32  flex items-center justify-center h-full bg-[#eaeaea]">
       <section>
         <div className="grid max-w-screen-lg mx-auto lg:grid-cols-12">
           <div className="mr-auto place-self-center flex flex-col gap-4 lg:col-span-7">
@@ -50,11 +50,9 @@ export default function Hero() {
                 Queremos que tu estadía sea una hermosa experiencia de descanso
                 y un buen recuerdo que te invite siempre a volver.
               </p>
-             
             </div>
-            
           </div>
-          
+
           <div className="lg:col-span-5">
             <img
               src="img/inicio/hero.jpg"
@@ -62,14 +60,12 @@ export default function Hero() {
               className="rounded-sm object-cover h-96 shadow-xl"
             />
           </div>
-          
         </div>
-        <div className='text-center'>
-                <button className="bg-yellow-500 hover:bg-yellow-400 transition duration-300 ease-in-out md:w-7/12 py-3 my-12 w-3/4 rounded-sm shadow-md uppercase text-sm shadow-gray-900">
-                  Ver Carta
-                </button>
-              </div>
-        
+        <div className="lg:text-center flex items-center justify-center">
+          <button className="bg-yellow-500  hover:bg-yellow-400 transition duration-300 ease-in-out md:w-7/12 py-4 my-12 w-3/4 rounded-sm shadow-md uppercase text-sm shadow-gray-900">
+            Ver Carta
+          </button>
+        </div>
       </section>
     </div>
   );
