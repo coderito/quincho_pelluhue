@@ -1,6 +1,6 @@
 export default function UbicacionRestaurante() {
   return (
-    <div className="container  max-w-screen-lg mx-auto mt-14 md:mt-28">
+    <div className="container  max-w-screen-xl mx-auto mt-14 md:mt-28">
       <div className="flex flex-col gap-3 md:gap-1 pt-3 p-3 md:p-0">
         <h2 className="text-5xl font-semibold text-orange-500 tracking-wide">Dónde ubicarnos?</h2>
         <div className="flex items-center">
@@ -22,7 +22,7 @@ export default function UbicacionRestaurante() {
           </p>
         </div>
 
-        <p className="mb-6 font-medium tracking-wider [word-spacing:0.1rem] text-sm text-slate-800">
+        <p className="mb-6 font-medium tracking-wider [word-spacing:0.1rem] text-md md:text-lg text-slate-800">
           Somos el Quincho de Pelluhue, un remanso de paz en plena costa Maulina
           con un entorno rural y a cinco minutos de la playa y de la
           desembocadura del rio Mariscadero.
