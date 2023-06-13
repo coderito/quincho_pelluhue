@@ -7,7 +7,7 @@ export default function VideoComponent() {
       <source src="video/food.mp4" type="video/mp4"/>
       Your browser does not support the video tag.
     </video>
-    <div class="text-overlay mb-6 md:mb-12 bg-black rounded-sm  px-4 md:py-6">
+    <div class="text-overlay mb-6 md:mb-12 bg-black rounded-sm  px-4 py-1  md:py-6">
       <p class="text-white text-xl sm:text-5xl lg:text-6xl tracking-wider md:tracking-wide"><span class="underline decoration-2 underline-offset-8 decoration-orange-500	">Irresistibles</span> creaciones <span class="text-orange-500">culinarias</span></p>
     </div>
   </div>
