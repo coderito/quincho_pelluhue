@@ -25,7 +25,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   const estilosNavegacion =
-    "block hover:underline transition duration-150 ease-in-out cursor-pointer py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent hover:text-blue-400 md:p-0";
+    "block hover:underline transition duration-150 ease-in-out cursor-pointer py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent hover:text-orange-400 md:p-0";
 
   return (
     <>
@@ -37,7 +37,8 @@ export default function Navbar() {
               className="h-12 w-12 mr-3 bg-white rounded-full"
               alt="Flowbite Logo"
             />
-            <span className={`${lobster.className} self-center tracking-wide md:tracking-widest text-sm md:text-lg uppercase whitespace-nowrap text-white`}>
+            <span className={`${lobster.className} self-center hover:text-orange-200
+             tracking-wide md:tracking-widest text-sm md:text-lg uppercase whitespace-nowrap text-white`}>
               El Quincho Pelluhue
             </span>
           </a>
@@ -75,7 +76,7 @@ export default function Navbar() {
                 <Link
                   className={
                     pathname === "/"
-                      ? "text-blue-500 cursor-pointer"
+                      ? "text-orange-600 cursor-pointer"
                       : estilosNavegacion
                   }
                   aria-current="page"
@@ -88,7 +89,7 @@ export default function Navbar() {
                 <Link
                   className={
                     pathname === "/menu"
-                    ? "text-blue-500 cursor-pointer"
+                    ? "text-orange-600 cursor-pointer"
                     : estilosNavegacion
                   }
                   href="/menu"
@@ -100,7 +101,7 @@ export default function Navbar() {
                 <Link
                   className={
                     pathname === "/galeria"
-                    ? "text-blue-500 cursor-pointer"
+                    ? "text-orange-600 cursor-pointer"
                     : estilosNavegacion
                   }
                   href="/galeria"
@@ -112,7 +113,7 @@ export default function Navbar() {
                 <Link
                   className={
                     pathname === "/casas"
-                    ? "text-blue-500 cursor-pointer"
+                    ? "text-orange-600 cursor-pointer"
                     : estilosNavegacion
                   }
                   href="/casas"
@@ -123,7 +124,7 @@ export default function Navbar() {
                 <Link
                   className={
                     pathname === "/contacto"
-                     ? "text-blue-500 cursor-pointer"
+                     ? "text-orange-600 cursor-pointer"
                       : estilosNavegacion
                   }
                   href="/contacto"
