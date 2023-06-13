@@ -2,7 +2,7 @@ export default function UbicacionRestaurante() {
   return (
     <div className="container  max-w-screen-lg mx-auto mt-14 md:mt-28">
       <div className="flex flex-col gap-3 md:gap-1 pt-3 p-3 md:p-0">
-        <h2 className="text-5xl font-semibold tracking-wide">Dónde ubicarnos?</h2>
+        <h2 className="text-5xl font-semibold text-orange-500 tracking-wide">Dónde ubicarnos?</h2>
         <div className="flex items-center">
           <svg
             aria-hidden="true"

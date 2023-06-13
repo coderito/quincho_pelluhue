@@ -4,7 +4,7 @@ const GalleryFoot = () => {
   return (
     <div className="container grid max-w-screen-lg mx-auto mt-14 md:mt-10">
       <div className="flex flex-col gap-3 md:gap-1 pt-3 p-3 md:p-0">
-        <h2 className="text-5xl font-semibold tracking-wide">
+        <h2 className="text-5xl text-orange-500 font-semibold tracking-wide">
           Delicias Gastronómicas
         </h2>
         <div className="flex items-center">
