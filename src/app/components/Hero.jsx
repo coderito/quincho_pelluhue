@@ -40,7 +40,7 @@ export default function Hero() {
             </div>
 
             <div>
-              <p className="mb-6 font-medium pt-5 tracking-wider [word-spacing:0.2rem] text-sm px-4 md:px-0 md:pr-24">
+              <p className="mb-6 font-medium pt-5 md:leading-6  tracking-wider [word-spacing:0.2rem] text-sm px-4 md:px-0 md:pr-24">
                 Años de dedicación en la búsqueda de una identidad propia nos
                 permiten compartir nuestra exquisita variedad gastronómica y
                 compartir la experiencia de nuestro aprendizaje. En nuestro
