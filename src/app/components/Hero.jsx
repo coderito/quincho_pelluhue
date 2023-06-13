@@ -8,7 +8,7 @@ const playfair = Playfair_Display({
 
 export default function Hero() {
   return (
-    <div className="pt-28  lg:pt-32  flex items-center justify-center h-full bg-[#eaeaea]">
+    <div className="pt-28  lg:pt-32  flex items-center justify-center h-full bg-[url('/img/inicio/bg.jpg')]">
       <section>
         <div className="grid max-w-screen-lg mx-auto lg:grid-cols-12">
           <div className="mr-auto place-self-center flex flex-col gap-4 lg:col-span-7">
@@ -33,7 +33,7 @@ export default function Hero() {
 
             <div className={playfair.className}>
               <div className="flex flex-col">
-                <h1 className="max-w-2xl px-4 md:px-0 font-extrabold tracking-wider leading-none text-5xl xl:text-6xl">
+                <h1 className="max-w-2xl px-4 text-orange-600 md:px-0 font-extrabold tracking-wider leading-none text-5xl xl:text-6xl">
                   EL QUINCHO
                 </h1>
               </div>
