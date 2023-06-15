@@ -1,7 +1,153 @@
-export default function Menu () {
-    return (
-      <div className="container pt-20">
-        <h1>Menu</h1>
+import { Alfa_Slab_One } from "next/font/google";
+
+const alfa_slab_one = Alfa_Slab_One({
+  weight: "400",
+  subsets: ["latin"],
+});
+
+export default function Menu() {
+  return (
+    <div className="pt-28  lg:pt-32  h-full md:h-screen  bg-[url('/img/inicio/bg.jpg')]">
+      <div className="max-w-screen-xl mx-auto">
+        <h2
+          className={`${alfa_slab_one.className} text-6xl tracking-wider mb-12 text-orange-600`}
+        >
+          Menu
+        </h2>
+<div className="flex flex-col gap-12">
+        <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+          <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+            <thead class="text-gray-700 uppercase dark:text-gray-400">
+              <tr>
+                <th
+                  scope="col"
+                  class="px-6 py-3 text-lg font-bold bg-gray-900 text-white"
+                >
+                  BEBESTIBLES
+                </th>
+                <th
+                  scope="col"
+                  class="px-6 py-4 text-lg font-bold bg-orange-400 text-white "
+                >
+                  PRECIO
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b border-gray-200 dark:border-gray-700">
+                <th
+                  scope="row"
+                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800"
+                >
+                  JUGO NATURAL
+                </th>
+
+                <td class="px-6 py-4 bg-orange-400 text-white">$3,000</td>
+              </tr>
+              <tr class="border-b border-gray-200 dark:border-gray-700">
+                <th
+                  scope="row"
+                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800"
+                >
+                  BEBIDAS (350 CC)
+                </th>
+
+                <td class="px-6 py-4px-6 py-4 bg-orange-400 text-white">
+                  $2,500
+                </td>
+              </tr>
+              <tr class="border-b border-gray-200 dark:border-gray-700">
+                <th
+                  scope="row"
+                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800"
+                >
+                  AGUA CON/SIN GAS
+                </th>
+
+                <td class="px-6 py-4  bg-orange-400 text-white">$2,000</td>
+              </tr>
+              <tr class="border-b border-gray-200 dark:border-gray-700">
+                <th
+                  scope="row"
+                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800"
+                >
+                  NECTAR (350 CC)
+                </th>
+
+                <td class="px-6 py-4 bg-orange-400 text-white">$2,500</td>
+              </tr>
+            </tbody>
+          </table>
+
+          </div>
+
+          <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+          <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+            <thead class="text-gray-700 uppercase dark:text-gray-400">
+              <tr>
+                <th
+                  scope="col"
+                  class="pl-6 py-3 text-lg font-bold bg-gray-900 text-white"
+                >
+                  PASTEL DE CAMARON
+                </th>
+                <th
+                  scope="col"
+                  class="px-6 py-4 text-lg font-bold bg-orange-400 text-white "
+                >
+                  PRECIO
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b border-gray-200 dark:border-gray-700">
+                <th
+                  scope="row"
+                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800"
+                >
+                  JUGO NATURAL
+                </th>
+
+                <td class="px-6 py-4 bg-orange-400 text-white">$3,000</td>
+              </tr>
+              <tr class="border-b border-gray-200 dark:border-gray-700">
+                <th
+                  scope="row"
+                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800"
+                >
+                  BEBIDAS (350 CC)
+                </th>
+
+                <td class="px-6 py-4px-6 py-4 bg-orange-400 text-white">
+                  $2,500
+                </td>
+              </tr>
+              <tr class="border-b border-gray-200 dark:border-gray-700">
+                <th
+                  scope="row"
+                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800"
+                >
+                  AGUA CON/SIN GAS
+                </th>
+
+                <td class="px-6 py-4  bg-orange-400 text-white">$2,000</td>
+              </tr>
+              <tr class="border-b border-gray-200 dark:border-gray-700">
+                <th
+                  scope="row"
+                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800"
+                >
+                  NECTAR (350 CC)
+                </th>
+
+                <td class="px-6 py-4 bg-orange-400 text-white">$2,500</td>
+              </tr>
+            </tbody>
+          </table>
+
+          </div>
+        </div>
       </div>
-    )
+    </div>
+  );
 }
