@@ -25,7 +25,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   const estilosNavegacion =
-    "block hover:underline transition duration-150 ease-in-out cursor-pointer py-2 pl-3 pr-4 text-white rounded md:bg-transparent hover:text-orange-400 md:p-0";
+    "block hover:underline transition duration-150 ease-in-out cursor-pointer py-2 pl-3 pr-4 text-white  rounded md:bg-transparent hover:text-orange-400 md:p-0";
 
   return (
     <>
@@ -39,7 +39,7 @@ export default function Navbar() {
             />
             <span className={`${lobster.className} self-center hover:text-orange-200
              tracking-wide font-bold md:tracking-widest text-sm md:text-lg uppercase whitespace-nowrap text-white`}>
-              <span className=" text-orange-500">Restaurant</span> pelluhue
+              <span className=" text-orange-500 underline decoration-2 underline-offset-8 decoration-orange-500">Restaurant</span> pelluhue
             </span>
           
           </a>
@@ -77,7 +77,7 @@ export default function Navbar() {
                 <Link
                   className={
                     pathname === "/"
-                      ? "text-orange-600 cursor-pointer"
+                      ? "text-orange-600 cursor-pointer "
                       : estilosNavegacion
                   }
                   aria-current="page"
