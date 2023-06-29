@@ -1,6 +1,6 @@
 export default function UbicacionRestaurante() {
   return (
-    <div className="container  max-w-screen-xl mx-auto mt-14 md:mt-28">
+    <div className="container  max-w-screen-xl mx-auto my-14 md:mt-28">
       <div className="flex flex-col gap-3 md:gap-1 pt-3 p-3 md:p-0">
         <h2 className="text-5xl font-semibold text-orange-500 tracking-wide">Dónde ubicarnos?</h2>
         <div className="flex items-center">
