@@ -57,7 +57,7 @@ export default function Hero() {
             <img
               src="img/inicio/hero.jpg"
               alt="mockup"
-              className="rounded-sm object-cover h-full shadow-xl"
+              className="rounded-sm object-cover h-full shadow-xl hover:opacity-95 transition-all duration-300 cursor-pointer hover:scale-90"
             />
           </div>
         </div>
