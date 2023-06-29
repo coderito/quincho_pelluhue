@@ -62,7 +62,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="lg:text-center md:pt-12 flex items-center justify-center">
-          <button className="bg-yellow-500  hover:bg-yellow-400 transition duration-300 ease-in-out md:w-6/12 py-4 my-12 w-3/4 rounded-sm shadow-md uppercase text-sm shadow-gray-900">
+          <button className="bg-yellow-500  hover:bg-yellow-400 transition duration-300 ease-in-out md:w-6/12 py-5 my-12 w-3/4 rounded-sm shadow-md uppercase text-sm shadow-gray-900">
             Ver Carta
           </button>
         </div>
